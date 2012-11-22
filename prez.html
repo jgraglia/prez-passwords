@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+
+<!--
+  Google HTML5 slide template
+
+  Authors: Luke Mahé (code)
+           Marcin Wichary (code and design)
+           
+           Dominic Mazzoni (browser compatibility)
+           Charles Chen (ChromeVox support)
+
+  URL: http://code.google.com/p/html5slides/
+-->
+
+<html>
+  <head>
+    <title>Presentation passwords et trousseau d'accès</title>
+
+    <meta charset='utf-8'>
+    <script
+      src='http://html5slides.googlecode.com/svn/trunk/slides.js'></script>
+  </head>
+  
+  <style>
+    /* Your individual styles here, or just use inline styles if that’s
+       what you want. */
+       .pros {
+		   color:green
+	   }
+       .cons {
+		   color:red
+	   }
+       .proscons {
+		   color:orange
+	   }
+	   
+	   .logo {
+		   height:50px
+	   }
+    
+    .rating-static {
+  width: 60px;
+  height: 16px;
+  display: block;
+  background: url('http://www.itsalif.info/blogfiles/rating/star-rating.png') 0 0 no-repeat;
+}
+.rating-50 { background-position: 0 0; }
+.rating-40 { background-position: -12px 0; } 
+.rating-30 { background-position: -24px 0; }
+.rating-20 { background-position: -36px 0; }
+.rating-10 { background-position: -48px 0; }
+.rating-0 { background-position: -60px 0; }
+ 
+.rating-5  { background-position: -48px -16px; }
+.rating-15 { background-position: -36px -16px; }
+.rating-25 { background-position: -24px -16px; }
+.rating-35 { background-position: -12px -16px; }
+.rating-45 { background-position: 0 -16px; }
+  </style>
+
+  <body style='display: none'>
+
+    <section class='slides layout-regular template-io2011'>
+      
+      <!-- Your slides (<article>s) go here. Delete or comment out the
+           slides below. -->
+        
+        
+      
+      <article class='biglogo'>
+      </article>
+
+      <article>
+        <h1>
+          Passwords <br>& Trousseau d'accès
+          
+        </h1>
+        <p>
+          Comment je gère mes différents mots de passe
+          <br>
+          Nov 2012
+        </p>
+      </article>
+    
+      <article>
+        <h3>
+			Ca c'était avant...
+        </h3>
+	    <p>
+          Fichier texte:
+        </p>
+        <pre>
+America On Line : jgraglia / xxxxx
+Caramail : jgraglia@netceler.com / xxxx
+        </pre>
+		<ul class="build">
+          <li class="pros">
+            Rapide
+          </li>
+          <li class="cons">
+            mais pas secure
+          </li>
+          <li class="cons">
+             et pas très pratique!
+          </li>
+        </ul>
+        <p>Note : <span class="rating-static rating-5"></span></p>      
+      </article>
+
+
+      <article>
+        <h3>
+          L'arrivée du cryptage
+        </h3>
+        <p>Le même fichier texte ... mais dans un volume <a href="http://www.truecrypt.org"/>TrueCrypt</a></p>
+        <img class="logo" src="images/truecrypt-icon.png"/>
+        <pre>
+Twitter : jgraglia / xxxxx
+Google : jgraglia@netceler.com / xxxx
+        </pre>
+		<ul class="build">
+          <li class="pros">
+            Sécurisé
+          </li>
+          <li class="cons">
+             pas très pratique!
+          </li>
+          <li class="pro">
+             Dropbox!
+          </li>
+        </ul>        
+        <p>Note : <span class="rating-static rating-20"></span></p>      
+      </article>
+
+      <article>
+        <h3>
+          Pratique!
+        </h3>
+        <p>Les même informations... mais dans un trousseau <a href="http://www.keepassx.org/"/>KeePassX</a></p>
+        <img class="logo" src="images/keepassx.png"/>
+        <table>
+			<tr>
+				<td>
+					<img src="images/keepassx-screenshot.png" height="210px"></img>
+				</td>
+				<td>
+					<ul class="build">
+					  <li class="pros">
+						Sécurisé
+					  </li>
+					  <li class="pros">
+						 Pratique!
+					  </li>
+					  <li class="pros">
+						 Dropbox!
+					  </li>
+					  <li class="proscons">
+						 Dropbox!
+					  </li>
+					  <li class="cons">
+						 IOS
+					  </li>
+					</ul>        
+				</td>
+			</tr>
+        </table>
+        <p>Note : <span class="rating-static rating-35"></span></p>      
+      </article>
+      
+      <article class='smaller'>
+        <h3>
+          Ultimate
+        </h3>
+        <p>Trousseau + partage réseau <a href="https://spideroak.com/"/>SpiderOak</a></p>
+        <img class="logo" src="images/64px-Spideroak.png"/>
+        
+
+		<ul class="build">
+		  <li class="pros">
+			Sécurisé !
+		  </li>
+		  <li class="pros">
+			 pratique !
+		  </li>
+		  <li class="pros">
+			 Mobile !
+		  </li>
+		</ul>        
+        <p>Note : <span class="rating-static rating-45"></span></p>      
+      </article>
+
+      <article>
+        <h3>
+          Slide with a table
+        </h3>
+        
+        <table>
+          <tr>
+            <th>
+              Name
+            <th>
+              Occupation
+          <tr>
+            <td>
+              Luke Mahé
+            <td>
+              V.P. of Keepin’ It Real
+          <tr>
+            <td>
+              Marcin Wichary
+            <td>
+              The Michael Bay of Doodles
+        </table>
+      </article>
+      
+      <article class='smaller'>
+        <h3>
+          Slide with a table (smaller text)
+        </h3>
+        
+        <table>
+          <tr>
+            <th>
+              Name
+            <th>
+              Occupation
+          <tr>
+            <td>
+              Luke Mahé
+            <td>
+              V.P. of Keepin’ It Real
+          <tr>
+            <td>
+              Marcin Wichary
+            <td>
+              The Michael Bay of Doodles
+        </table>
+      </article>
+      
+      <article>
+        <h3>
+          Styles
+        </h3>
+        <ul>
+          <li>
+            <span class='red'>class="red"</span>
+          <li>
+            <span class='blue'>class="blue"</span>
+          <li>
+            <span class='green'>class="green"</span>
+          <li>
+            <span class='yellow'>class="yellow"</span>
+          <li>
+            <span class='black'>class="black"</span>
+          <li>
+            <span class='white'>class="white"</span>
+          <li>
+            <b>bold</b> and <i>italic</i>
+        </ul>
+      </article>
+      
+      <article>
+        <h2>
+          Segue slide
+        </h2>
+      </article>
+
+      <article>
+        <h3>
+          Slide with an image
+        </h3>
+        <p>
+          <img style='height: 500px' src='images/example-graph.png'>
+        </p>
+        <div class='source'>
+          Source: Sergey Brin
+        </div>
+      </article>
+
+      <article>
+        <h3>
+          Slide with an image (centered)
+        </h3>
+        <p>
+          <img class='centered' style='height: 500px' src='images/example-graph.png'>
+        </p>
+        <div class='source'>
+          Source: Larry Page
+        </div>
+      </article>
+
+      <article class='fill'>
+        <h3>
+          Image filling the slide (with optional header)
+        </h3>
+        <p>
+          <img src='images/example-cat.jpg'>
+        </p>
+        <div class='source white'>
+          Source: Eric Schmidt
+        </div>
+      </article>
+
+      <article>
+        <h3>
+          This slide has some code
+        </h3>
+        <section>
+        <pre>
+&lt;script type='text/javascript'&gt;
+  // Say hello world until the user starts questioning
+  // the meaningfulness of their existence.
+  function helloWorld(world) {
+    for (var i = 42; --i &gt;= 0;) {
+      alert('Hello ' + String(world));
+    }
+  }
+&lt;/script&gt;
+&lt;style&gt;
+  p { color: pink }
+  b { color: blue }
+  u { color: 'umber' }
+&lt;/style&gt;
+</pre>
+        </section>
+      </article>
+      
+      <article class='smaller'>
+        <h3>
+          This slide has some code (small font)
+        </h3>
+        <section>
+        <pre>
+&lt;script type='text/javascript'&gt;
+  // Say hello world until the user starts questioning
+  // the meaningfulness of their existence.
+  function helloWorld(world) {
+    for (var i = 42; --i &gt;= 0;) {
+      alert('Hello ' + String(world));
+    }
+  }
+&lt;/script&gt;
+&lt;style&gt;
+  p { color: pink }
+  b { color: blue }
+  u { color: 'umber' }
+&lt;/style&gt;
+</pre>
+        </section>
+      </article>
+      
+      <article>
+        <q>
+          The best way to predict the future is to invent it.
+        </q>
+        <div class='author'>
+          Alan Kay
+        </div>
+      </article>
+      
+      <article class='smaller'>
+        <q>
+          A distributed system is one in which the failure of a computer 
+          you didn’t even know existed can render your own computer unusable.
+        </q>
+        <div class='author'>
+          Leslie Lamport
+        </div>
+      </article>
+      
+      <article class='nobackground'>
+        <h3>
+          A slide with an embed + title
+        </h3>
+        
+        <iframe src='http://www.google.com/doodle4google/history.html'></iframe>
+      </article>
+
+      <article class='nobackground'>
+        <iframe src='http://www.google.com/doodle4google/history.html'></iframe>
+      </article>
+
+      <article class='fill'>
+        <h3>
+          Full-slide embed with (optional) slide title on top
+        </h3>
+        <iframe src='http://www.google.com/doodle4google/history.html'></iframe>
+      </article>
+      
+      <article>
+        <h3>
+          Thank you!
+        </h3>
+        
+        <ul>
+          <li>
+            <a href='http://www.google.com'>google.com</a>
+        </ul>
+      </article>
+
+    </section>
+
+  </body>
+</html>
